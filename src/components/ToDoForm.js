@@ -14,6 +14,7 @@ export default function ToDoForm() {
     const newTask = {
       id: Date.now(),
       task: task,
+      checked: false,
     }
     setTasks([...tasks, newTask]);
     setTask("");
