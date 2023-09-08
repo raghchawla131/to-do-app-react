@@ -21,7 +21,7 @@ export default function ToDoForm() {
   }
 
   return (
-    <>
+    <div id="to-do-list">
       <form>
         <label htmlFor="input-task">Task</label>
         <input 
@@ -33,6 +33,6 @@ export default function ToDoForm() {
         <button onClick={addTask} id="add-task-btn">Add Task</button>
       </form>
       <AddTask tasks={tasks} setTasks={setTasks} />
-    </>
+    </div>
   );
 }

@@ -13,6 +13,12 @@ html, body {
   color: white;
 }
 
+#to-do-list {
+  margin: auto auto;
+  height: 100%;
+  width: 50%;
+}
+
 label[for="input-task"] {
   color: rgb(7, 121, 243);
   font-size: 2rem;
