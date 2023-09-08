@@ -9,14 +9,14 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: rgb(65, 65, 65);
-  padding: 0.5rem;
+  padding: 1rem;
   color: white;
 }
 
 #to-do-list {
   margin: auto auto;
   height: 100%;
-  width: 50%;
+  width: 80%;
 }
 
 label[for="input-task"] {
@@ -30,7 +30,7 @@ label[for="input-task"] {
   margin: 1em 0;
   display: block;
   width: 100%;
-  max-width: 50vw;
+  max-width: 100%;
   padding: 0.8em;
   border: none;
   outline: none;
@@ -55,7 +55,7 @@ label[for="input-task"] {
 }
 
 #tasks-list li {
-  max-width: 50vw;
+  max-width: 100%;
   margin-top: 1em;
   list-style: none;
   display: flex;
